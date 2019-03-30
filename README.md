@@ -44,7 +44,7 @@ django-task-manager makes use of the Django `messages` system. Make sure you hav
 
 ## Running Tests
 
-  python manage.py test task_manager
+        python manage.py test task_manager
 
 ## Overview
 
