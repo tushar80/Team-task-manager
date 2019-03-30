@@ -32,13 +32,17 @@ Add to your settings:
         'task-manager',
     )
 
+Set LOGIN_URL to /task-manager/login/
+
+    LOGIN_URL = '/task-manager/login/'
+
 Create database tables:
 
-  python manage.py migrate task_manager
+    python manage.py migrate task_manager
 
 Add to your URL conf:
 
-	path('task-manger/', include('task_manager.urls')),
+    path('task-manger/', include('task_manager.urls')),
 
 django-task-manager makes use of the Django `messages` system. Make sure you have installed `messages`.
 
