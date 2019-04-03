@@ -49,6 +49,13 @@ django-task-manager makes use of the Django `messages` system. Make sure you hav
 ## Running Tests
 
     python manage.py test task_manager
+    
+## The settings.AUTH_USER_MODEL should have following attributes
+1. username
+2. password
+3. email
+4. is_authenticated
+5. is_active
 
 ## Overview
 
