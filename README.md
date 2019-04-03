@@ -42,7 +42,7 @@ Create database tables:
 
 Add to your URL conf:
 
-    path('task-manger/', include('task_manager.urls')),
+    path('task-manager/', include('task_manager.urls')),
 
 django-task-manager makes use of the Django `messages` system. Make sure you have installed `messages`.
 
