@@ -29,7 +29,7 @@ Add to your settings:
 
     INSTALLED_APPS = (
         ...
-        'task-manager',
+        'task_manager',
     )
 
 Set LOGIN_URL to /task-manager/login/
