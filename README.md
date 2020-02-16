@@ -1,9 +1,9 @@
 # fsf_2019_screening_task1
 
-django-task-manager is pluggable, multi-user, mulyi-team task management
+django-task-manager is pluggable, multi-user, multi-team task management
 and assignment application for Django, designed to be used into an existing site as a reusable app.
 django-task-manager can be user as personal to-do tracker or team task managment system.
-django-task-manager is developed as screening task for felloship from fossee for year 2019.
+django-task-manager is developed as screening task for fellowship from fossee for year 2019.
 
 ## Features
 
